@@ -42,7 +42,6 @@ object NetworkClientModule {
 
             install(Logging) {
                 logger = clientLogger
-                level = LogLevel.ALL
             }
 
             install(ResponseObserver) {
