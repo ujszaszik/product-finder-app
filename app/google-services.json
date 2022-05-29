@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381470910358",
+    "project_id": "itemfinder-f5c35",
+    "storage_bucket": "itemfinder-f5c35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381470910358:android:2f37a899259eb8b8325fb7",
+        "android_client_info": {
+          "package_name": "ch.galaxus.productfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381470910358-qbj183kgmkrgvapal8uj2d28afuc9c88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxFwgsZkXCVtVtY_0s7OCuS8tCodrnM_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381470910358-qbj183kgmkrgvapal8uj2d28afuc9c88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

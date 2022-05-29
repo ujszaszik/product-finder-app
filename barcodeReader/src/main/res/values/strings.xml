@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_low_storage">Nincs elegendő tárhely a készüléken a művelet végrehájtásához!</string>
+    <string name="error_camera_init">Probléma lépett fel a kamera indítása közben!</string>
+    <string name="error_camera_missing">Nincs elérhető kamera a készüléken!</string>
+</resources>
