@@ -26,6 +26,6 @@ data class ProductVariants(
 @Serializable
 data class ProductVariant(
     val productId: Int,
-    val label: String,
+    val label: String?,
     val imageUrl: String
 )

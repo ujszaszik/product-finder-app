@@ -43,14 +43,17 @@ fun ProductVariantTypeScreen(dimension: VariantDimension) {
                             NetworkImage(url = item.imageUrl, size = NetworkImageSize.MEDIUM)
                         }
 
-                        Text(
-                            text = item.label,
-                            fontSize = Dimens.defaultTextSize,
-                            fontFamily = Fonts.slateProFamily,
-                            fontWeight = FontWeight.Bold,
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.padding(Dimens.paddingDefault)
-                        )
+                        item.label?.let {
+                            Text(
+                                text = it,
+                                fontSize = Dimens.defaultTextSize,
+                                fontFamily = Fonts.slateProFamily,
+                                fontWeight = FontWeight.Bold,
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier.padding(Dimens.paddingDefault)
+                            )
+                        }
+
                     } // CenteredColumn
 
                 } // Card

@@ -24,10 +24,7 @@ fun BarcodeScanScreen(
     }
 
     BarcodeReaderScreen(
-        onDetection = {
-            onDetection(it)
-            println(":::::::DETECTED:::: $it")
-        },
+        onDetection = { onDetection(it) },
         onError = { cameraError = it },
         onCancelled = { onCancel() },
         onFlashCLick = { onToggleFlash() },

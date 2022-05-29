@@ -14,7 +14,7 @@ data class VariantDimension(
 
 data class VariantModel(
     val productId: Int,
-    val label: String,
+    val label: String?,
     val imageUrl: String = ""
 )
 
